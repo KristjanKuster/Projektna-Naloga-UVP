@@ -19,13 +19,20 @@ Vse analize so predstavljene v **Jupyter Notebooku**, kjer so tudi grafi in razl
 ## Navodila za zagon
 
 ### Zahteve
-- Python 3.10 ali novejši
 - Knjižnice:
   - pandas
   - matplotlib
   - requests
-  - openpyxl (za branje Excel datotek)
+  - openpyxl
 
 ### Namestitev knjižnic
 ```bash
 pip install pandas matplotlib requests openpyxl
+```
+### Zaženi
+Zaženite skripto `zbiranje_podatkov.py`, ki prenese in pripravi podatke:
+```bash
+python zbiranje_in_urejanje_podatkov.py
+```
+Nato pa odprite Jupyter Notebook analiza.ipynb, kjer je analiza podatkov, ki je razložena zgoraj
+

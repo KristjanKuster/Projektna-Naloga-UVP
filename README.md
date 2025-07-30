@@ -28,11 +28,11 @@ Vse analize so predstavljene v **Jupyter Notebooku**, kjer so tudi grafi in razl
 ### Namestitev knjižnic
 ```bash
 pip install pandas matplotlib requests openpyxl
-
+```
 ### Zaženi
 Zaženite skripto `zbiranje_podatkov.py`, ki prenese in pripravi podatke:
 ```bash
 python zbiranje_in_urejanje_podatkov.py
-
+```
 Nato pa odprite Jupyter Notebook analiza.ipynb, kjer je analiza podatkov, ki je razložena zgoraj
 
